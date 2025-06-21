@@ -9,8 +9,8 @@ elif command -v yum > /dev/null; then
     echo "Detected YUM-based system (RHEL/CentOS)"
     sudo yum update -y
 else
-    echo "❌ Unsupported package manager"
+    echo "Unsupported package manager"
     exit 1
 fi
 
-echo "✅ System update completed."
+echo "System update completed."
